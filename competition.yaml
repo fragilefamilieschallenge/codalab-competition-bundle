@@ -1,0 +1,49 @@
+description: Use data science to provide insight about how to improve the lives of
+  disadvantaged children.
+end_date: null
+force_submission_to_leaderboard: true
+has_registration: false
+html: {Scientific goals: projectGoals.html, data: data.html, evaluation: evaluation.html,
+  overview: overview.html, terms: terms_and_conditions.html}
+leaderboard:
+  columns:
+    Job_training:
+      label: Job training
+      leaderboard: &id001 {label: Results, rank: 1}
+      numeric_format: 5
+      rank: 6
+    Material_hardship:
+      college: null
+      label: Material hardship
+      leaderboard: *id001
+      numeric_format: 5
+      rank: 3
+    eviction:
+      label: Eviction
+      leaderboard: *id001
+      numeric_format: 5
+      rank: 4
+    gpa:
+      label: GPA
+      leaderboard: *id001
+      numeric_format: 5
+      rank: 1
+    grit:
+      grit: null
+      label: Grit
+      leaderboard: *id001
+      numeric_format: 5
+      rank: 2
+    layoff:
+      label: Layoff
+      leaderboard: *id001
+      numeric_format: 5
+      rank: 5
+  leaderboards:
+    RESULTS: *id001
+phases:
+  1: {description: null, label: Fragile Families Challenge, max_submissions: 100,
+    max_submissions_per_day: 10, phasenumber: 1, reference_data: !!python/unicode 'datasets/None/6f5f3e80-01a5-46a0-8138-ff95bd690d9e/reference2.zip',
+    scoring_program: !!python/unicode 'datasets/None/ab8f665a-1aa8-41c0-85c6-90c7e941a8e9/program.zip',
+    start_date: 2016-12-21}
+title: FF Challenge Test

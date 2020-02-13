@@ -1,0 +1,1 @@
+Submissions are evaluated based on predictive validity measured by mean squared error loss for continuous variables and Brier loss for binary outcomes.
