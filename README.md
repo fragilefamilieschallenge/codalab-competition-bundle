@@ -1,5 +1,5 @@
 # codalab-competition-bundle
-This repository contains the files used to create the competition bundle within the Codalab platform. The code to create the platform is in a separate repository: fragilefamilieschallenge/codalab-competitions
+This repository contains the files used to create the competition bundle within the Codalab platform. The code to create the platform is in a separate repository: [fragilefamilieschallenge/codalab-competitions](https://github.com/fragilefamilieschallenge/codalab-competitions/tree/master)
 
 The zipped folder contains the entire competition bundle for Codalab. The unzipped elements exist to provide easier access to key aspects of the competition.
 
